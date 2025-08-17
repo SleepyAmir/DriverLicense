@@ -94,13 +94,13 @@
     </thead>
     <tbody>
     <tr>
-        <td>1</td>
-        <td>P123</td>
-        <td>S456</td>
-        <td>Motorcycle</td>
-        <td>New York</td>
-        <td>2023-01-01</td>
-        <td>2028-01-01</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
         <td>
             <button class="btn btn-edit">Edit</button>
             <button class="btn btn-delete">Delete</button>
