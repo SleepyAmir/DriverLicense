@@ -2,7 +2,8 @@ package com.sleepy.driverlicenses.entity;
 
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import jakarta.persistence.*;
+import javax.persistence.*;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -15,6 +16,7 @@ import java.time.LocalDate;
 @Getter
 @Setter
 @SuperBuilder
+@AllArgsConstructor
 
 @Entity(name="driverLicenseEntity")
 @Table(name="driverLicense")
@@ -31,7 +33,7 @@ public class DriverLicense {
 
     @Column(name = "serial", nullable = false, unique = true)
     @JsonProperty("شماره سریال")
-    private int serial;
+    private int serialNumber;
 
     @Column(name = "licenseType", nullable = false)
     @JsonProperty("نوع گواهینامه")

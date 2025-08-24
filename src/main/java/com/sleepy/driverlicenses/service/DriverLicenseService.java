@@ -2,6 +2,7 @@ package com.sleepy.driverlicenses.service;
 
 import com.sleepy.driverlicenses.entity.DriverLicense;
 import com.sleepy.driverlicenses.repository.DriverLicenseRepository;
+import lombok.Getter;
 
 import javax.swing.*;
 import java.util.List;

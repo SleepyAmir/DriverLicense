@@ -2,8 +2,10 @@ package com.sleepy.driverlicenses.repository;
 
 import com.sleepy.driverlicenses.entity.DriverLicense;
 import com.sleepy.driverlicenses.tools.JpaProvider;
-import jakarta.persistence.*;
+import javax.persistence.*;
 
+import javax.persistence.EntityManager;
+import javax.persistence.EntityTransaction;
 import java.util.List;
 
 public class DriverLicenseRepository implements AutoCloseable{
@@ -12,7 +14,7 @@ public class DriverLicenseRepository implements AutoCloseable{
 
 
     public DriverLicenseRepository() {
-        entityManager = JpaProvider.getProvider().getEntityManager();
+        entityManager= JpaProvider.getProvider().getEntityManager();
     }
 
 
