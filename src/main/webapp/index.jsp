@@ -272,62 +272,6 @@
                 </tr>
                 </thead>
                 <tbody>
-                <!-- Sample Data - Replace with JSP forEach -->
-                <tr>
-                    <td>1</td>
-                    <td>12345</td>
-                    <td>987654321</td>
-                    <td><span class="badge license-type-CAR">Car</span></td>
-                    <td>Tehran</td>
-                    <td>2023-01-15</td>
-                    <td>2028-01-15</td>
-                    <td><span class="badge bg-success">Active</span></td>
-                    <td>
-                        <button class="btn btn-warning btn-sm icon-button" onclick="edit(1)">
-                            <i class="fas fa-edit"></i> Edit
-                        </button>
-                        <button class="btn btn-danger btn-sm icon-button" onclick="remove(1)">
-                            <i class="fas fa-trash"></i> Remove
-                        </button>
-                    </td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>67890</td>
-                    <td>123456789</td>
-                    <td><span class="badge license-type-MOTORCYCLE">Motorcycle</span></td>
-                    <td>Shiraz</td>
-                    <td>2022-06-20</td>
-                    <td>2027-06-20</td>
-                    <td><span class="badge bg-warning">Expiring Soon</span></td>
-                    <td>
-                        <button class="btn btn-warning btn-sm icon-button" onclick="edit(2)">
-                            <i class="fas fa-edit"></i> Edit
-                        </button>
-                        <button class="btn btn-danger btn-sm icon-button" onclick="remove(2)">
-                            <i class="fas fa-trash"></i> Remove
-                        </button>
-                    </td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>11111</td>
-                    <td>555666777</td>
-                    <td><span class="badge license-type-TRACTOR">Tractor</span></td>
-                    <td>Yazd</td>
-                    <td>2021-03-10</td>
-                    <td>2026-03-10</td>
-                    <td><span class="badge bg-success">Active</span></td>
-                    <td>
-                        <button class="btn btn-warning btn-sm icon-button" onclick="edit(3)">
-                            <i class="fas fa-edit"></i> Edit
-                        </button>
-                        <button class="btn btn-danger btn-sm icon-button" onclick="remove(3)">
-                            <i class="fas fa-trash"></i> Remove
-                        </button>
-                    </td>
-                </tr>
-
                 <!-- JSP version - uncomment and replace sample data -->
                 <!--
                         <c:forEach var="license" items="${sessionScope.driverLicenseList}">
